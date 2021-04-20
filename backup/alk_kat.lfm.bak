@@ -1,0 +1,126 @@
+object Form1: TForm1
+  Left = 316
+  Height = 431
+  Top = 167
+  Width = 519
+  Caption = 'Form1'
+  ClientHeight = 431
+  ClientWidth = 519
+  LCLVersion = '0.9.28.2'
+  object GroupBox1: TGroupBox
+    Left = 32
+    Height = 152
+    Top = 16
+    Width = 456
+    Caption = 'Siplace beültetőgépek és gépegységek'
+    ClientHeight = 134
+    ClientWidth = 452
+    TabOrder = 0
+    object rdbF4: TRadioButton
+      Left = 22
+      Height = 17
+      Top = 17
+      Width = 69
+      Caption = ' Siplace F4'
+      TabOrder = 0
+    end
+    object rdbF5: TRadioButton
+      Left = 22
+      Height = 17
+      Top = 45
+      Width = 69
+      Caption = ' Siplace F5'
+      TabOrder = 1
+    end
+    object rdbF5HM: TRadioButton
+      Left = 22
+      Height = 17
+      Top = 72
+      Width = 84
+      Caption = ' Siplace F5HM'
+      TabOrder = 2
+    end
+    object rdbS23: TRadioButton
+      Left = 126
+      Height = 17
+      Top = 17
+      Width = 75
+      Caption = ' Siplace S23'
+      TabOrder = 3
+    end
+    object rdbS27: TRadioButton
+      Left = 126
+      Height = 17
+      Top = 45
+      Width = 75
+      Caption = ' Siplace S27'
+      TabOrder = 4
+    end
+    object rdbHS50: TRadioButton
+      Left = 238
+      Height = 17
+      Top = 17
+      Width = 82
+      Caption = ' Siplace HS50'
+      TabOrder = 5
+    end
+    object rdbHS60: TRadioButton
+      Left = 238
+      Height = 17
+      Top = 45
+      Width = 82
+      Caption = ' Siplace HS60'
+      TabOrder = 6
+    end
+    object rdbX4: TRadioButton
+      Left = 350
+      Height = 17
+      Top = 17
+      Width = 69
+      Caption = ' Siplace X4'
+      TabOrder = 7
+    end
+    object rdbWPW: TRadioButton
+      Left = 22
+      Height = 17
+      Top = 104
+      Width = 68
+      Caption = ' WPW 80F'
+      TabOrder = 8
+    end
+  end
+  object GroupBox2: TGroupBox
+    Left = 32
+    Height = 128
+    Top = 200
+    Width = 456
+    Caption = 'Siplace Siemens adagolók és utánfűzőeszközök'
+    ClientHeight = 110
+    ClientWidth = 452
+    TabOrder = 1
+    object rdbFeederS: TRadioButton
+      Left = 22
+      Height = 17
+      Top = 17
+      Width = 106
+      Caption = ' S-típusú adagolók'
+      TabOrder = 0
+    end
+    object rdbFeederX: TRadioButton
+      Left = 22
+      Height = 17
+      Top = 45
+      Width = 106
+      Caption = ' X-típusú adagolók'
+      TabOrder = 1
+    end
+    object rdbSplicing: TRadioButton
+      Left = 158
+      Height = 17
+      Top = 17
+      Width = 111
+      Caption = ' Utánfűző eszközök'
+      TabOrder = 2
+    end
+  end
+end

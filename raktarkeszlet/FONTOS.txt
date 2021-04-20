@@ -1,0 +1,5 @@
+Az elsõ sor fagyasztása miatt lehülyül az excel parser, ezért sokszor ad vissza a keresés
+üres cellákat!
+
+Ezért kézzel kell átmásolni a raktárkészlet fájlt az U: meghajtóról a "v:\Siplace-OPC\raktarkeszlet\" 
+mappába, majd meg kell nyitni és törölni a címsort (legelsõ sort).

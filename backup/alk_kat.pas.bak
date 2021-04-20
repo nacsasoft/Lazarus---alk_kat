@@ -1,0 +1,45 @@
+unit alk_kat;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils, FileUtil, LResources, Forms, Controls, Graphics, Dialogs,
+  ExtCtrls, StdCtrls;
+
+type
+
+  { TForm1 }
+
+  TForm1 = class(TForm)
+    GroupBox1: TGroupBox;
+    GroupBox2: TGroupBox;
+    rdbF4: TRadioButton;
+    rdbF5: TRadioButton;
+    rdbF5HM: TRadioButton;
+    rdbFeederS: TRadioButton;
+    rdbFeederX: TRadioButton;
+    rdbSplicing: TRadioButton;
+    rdbX4: TRadioButton;
+    rdbHS60: TRadioButton;
+    rdbS27: TRadioButton;
+    rdbS23: TRadioButton;
+    rdbHS50: TRadioButton;
+    rdbWPW: TRadioButton;
+  private
+    { private declarations }
+  public
+    { public declarations }
+  end; 
+
+var
+  Form1: TForm1; 
+
+implementation
+
+initialization
+  {$I alk_kat.lrs}
+
+end.
+

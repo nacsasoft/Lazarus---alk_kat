@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <MainUnit Value="0"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <VersionInfo>
+      <Language Value=""/>
+      <CharSet Value=""/>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="6">
+      <Item1>
+        <PackageName Value="SQLDBLaz"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="laz_fpspreadsheet"/>
+        <MinVersion Valid="True"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="LCLBase"/>
+        <MinVersion Major="1" Release="1" Valid="True"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="sqlite3laz"/>
+        <MinVersion Minor="4" Valid="True"/>
+      </Item5>
+      <Item6>
+        <PackageName Value="LCL"/>
+      </Item6>
+    </RequiredPackages>
+    <Units Count="9">
+      <Unit0>
+        <Filename Value="alk_kat.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="alk_kat"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="22"/>
+        <UsageCount Value="235"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="alk_kat_start.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="alk_kat_start"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="218"/>
+        <CursorPos X="3" Y="220"/>
+        <UsageCount Value="235"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="machines.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmGepalkatreszek"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Machines"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="261"/>
+        <CursorPos X="49" Y="281"/>
+        <UsageCount Value="235"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="database.pas"/>
+        <UnitName Value="database"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="28" Y="31"/>
+        <UsageCount Value="107"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="global.pas"/>
+        <UnitName Value="global"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="5"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="24" Y="18"/>
+        <UsageCount Value="106"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="kereses_eredmenye.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmKeresesEredmenye"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="kereses_eredmenye"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="467"/>
+        <CursorPos X="8" Y="467"/>
+        <UsageCount Value="332"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\..\fpspreadsheet-1.6.2\fpsfunc.pas"/>
+        <UnitName Value="fpsfunc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="821"/>
+        <CursorPos X="28" Y="840"/>
+        <UsageCount Value="10"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\..\fpspreadsheet-1.6.2\fpspreadsheet.pas"/>
+        <UnitName Value="fpspreadsheet"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1388"/>
+        <CursorPos X="7" Y="1407"/>
+        <UsageCount Value="10"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\..\fpspreadsheet-1.6.2\laz_fpspreadsheet.pas"/>
+        <UnitName Value="laz_fpspreadsheet"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit8>
+    </Units>
+    <JumpHistory Count="26" HistoryIndex="25">
+      <Position1>
+        <Filename Value="alk_kat_start.pas"/>
+        <Caret Line="97" Column="29" TopLine="73"/>
+      </Position1>
+      <Position2>
+        <Filename Value="machines.pas"/>
+        <Caret Line="363" Column="53" TopLine="346"/>
+      </Position2>
+      <Position3>
+        <Filename Value="alk_kat_start.pas"/>
+        <Caret Line="115" Column="63" TopLine="84"/>
+      </Position3>
+      <Position4>
+        <Filename Value="alk_kat_start.pas"/>
+        <Caret Line="254" Column="5" TopLine="222"/>
+      </Position4>
+      <Position5>
+        <Filename Value="kereses_eredmenye.pas"/>
+        <Caret Line="234" Column="1" TopLine="196"/>
+      </Position5>
+      <Position6>
+        <Filename Value="kereses_eredmenye.pas"/>
+        <Caret Line="373" Column="1" TopLine="335"/>
+      </Position6>
+      <Position7>
+        <Filename Value="kereses_eredmenye.pas"/>
+        <Caret Line="144" Column="3" TopLine="142"/>
+      </Position7>
+      <Position8>
+        <Filename Value="machines.pas"/>
+        <Caret Line="416" Column="28" TopLine="402"/>
+      </Position8>
+      <Position9>
+        <Filename Value="machines.pas"/>
+        <Caret Line="422" Column="10" TopLine="396"/>
+      </Position9>
+      <Position10>
+        <Filename Value="machines.pas"/>
+        <Caret Line="514" Column="6" TopLine="509"/>
+      </Position10>
+      <Position11>
+        <Filename Value="machines.pas"/>
+        <Caret Line="516" Column="35" TopLine="496"/>
+      </Position11>
+      <Position12>
+        <Filename Value="alk_kat_start.pas"/>
+        <Caret Line="110" Column="4" TopLine="98"/>
+      </Position12>
+      <Position13>
+        <Filename Value="alk_kat_start.pas"/>
+        <Caret Line="111" Column="4" TopLine="99"/>
+      </Position13>
+      <Position14>
+        <Filename Value="alk_kat_start.pas"/>
+        <Caret Line="209" Column="3" TopLine="207"/>
+      </Position14>
+      <Position15>
+        <Filename Value="kereses_eredmenye.pas"/>
+        <Caret Line="154" Column="1" TopLine="154"/>
+      </Position15>
+      <Position16>
+        <Filename Value="alk_kat_start.pas"/>
+        <Caret Line="132" Column="21" TopLine="124"/>
+      </Position16>
+      <Position17>
+        <Filename Value="alk_kat_start.pas"/>
+        <Caret Line="210" Column="3" TopLine="208"/>
+      </Position17>
+      <Position18>
+        <Filename Value="alk_kat_start.pas"/>
+        <Caret Line="211" Column="3" TopLine="209"/>
+      </Position18>
+      <Position19>
+        <Filename Value="alk_kat_start.pas"/>
+        <Caret Line="212" Column="3" TopLine="210"/>
+      </Position19>
+      <Position20>
+        <Filename Value="alk_kat_start.pas"/>
+        <Caret Line="220" Column="29" TopLine="196"/>
+      </Position20>
+      <Position21>
+        <Filename Value="alk_kat_start.pas"/>
+        <Caret Line="213" Column="3" TopLine="211"/>
+      </Position21>
+      <Position22>
+        <Filename Value="alk_kat_start.pas"/>
+        <Caret Line="208" Column="3" TopLine="206"/>
+      </Position22>
+      <Position23>
+        <Filename Value="machines.pas"/>
+        <Caret Line="420" Column="29" TopLine="399"/>
+      </Position23>
+      <Position24>
+        <Filename Value="machines.pas"/>
+        <Caret Line="274" Column="3" TopLine="263"/>
+      </Position24>
+      <Position25>
+        <Filename Value="machines.pas"/>
+        <Caret Line="363" Column="3" TopLine="354"/>
+      </Position25>
+      <Position26>
+        <Filename Value="machines.pas"/>
+        <Caret Line="360" Column="1" TopLine="343"/>
+      </Position26>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <UseAnsiStrings Value="False"/>
+      </SyntaxOptions>
+    </Parsing>
+    <CodeGeneration>
+      <SmartLinkUnit Value="True"/>
+      <SmallerCode Value="True"/>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <StripSymbols Value="True"/>
+        <UseExternalDbgSyms Value="True"/>
+      </Debugging>
+      <LinkSmart Value="True"/>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <Verbosity>
+        <ShowWarn Value="False"/>
+        <ShowNotes Value="False"/>
+        <ShowHints Value="False"/>
+      </Verbosity>
+      <CompilerMessages>
+        <UseMsgFile Value="True"/>
+      </CompilerMessages>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="4">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+      <Item4>
+        <Name Value="EDatabaseError"/>
+      </Item4>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

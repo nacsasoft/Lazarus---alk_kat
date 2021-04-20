@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="10"/>
+    <PathDelim Value="\"/>
+    <General>
+      <MainUnit Value="0"/>
+      <Title Value="Siplace-OPC"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+    </General>
+    <VersionInfo>
+      <Language Value=""/>
+      <CharSet Value=""/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="6">
+      <Item1>
+        <PackageName Value="SQLDBLaz"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="laz_fpspreadsheet"/>
+        <MinVersion Valid="True"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="LCLBase"/>
+        <MinVersion Major="1" Release="1" Valid="True"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="sqlite3laz"/>
+        <MinVersion Minor="4" Valid="True"/>
+      </Item5>
+      <Item6>
+        <PackageName Value="LCL"/>
+      </Item6>
+    </RequiredPackages>
+    <Units Count="7">
+      <Unit0>
+        <Filename Value="alk_kat.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="4" Y="15"/>
+        <UsageCount Value="235"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="alk_kat_start.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="133"/>
+        <CursorPos X="7" Y="151"/>
+        <UsageCount Value="235"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="machines.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmGepalkatreszek"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Machines"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="480"/>
+        <CursorPos X="29" Y="487"/>
+        <UsageCount Value="235"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="database.pas"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="7"/>
+        <CursorPos Y="19"/>
+        <UsageCount Value="107"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="global.pas"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="25"/>
+        <CursorPos Y="42"/>
+        <UsageCount Value="106"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="kereses_eredmenye.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmKeresesEredmenye"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="239"/>
+        <CursorPos X="55" Y="242"/>
+        <UsageCount Value="332"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="beallitasok.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmBeallitasok"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="43"/>
+        <CursorPos X="22" Y="70"/>
+        <UsageCount Value="420"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit6>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="alk_kat_start.pas"/>
+        <Caret Line="124" Column="26" TopLine="100"/>
+      </Position1>
+      <Position2>
+        <Filename Value="alk_kat_start.pas"/>
+        <Caret Line="125" Column="26" TopLine="101"/>
+      </Position2>
+      <Position3>
+        <Filename Value="alk_kat_start.pas"/>
+        <Caret Line="124" Column="26" TopLine="100"/>
+      </Position3>
+      <Position4>
+        <Filename Value="alk_kat_start.pas"/>
+        <Caret Line="136" Column="53" TopLine="101"/>
+      </Position4>
+      <Position5>
+        <Filename Value="alk_kat_start.pas"/>
+        <Caret Line="144" Column="38" TopLine="141"/>
+      </Position5>
+      <Position6>
+        <Filename Value="alk_kat_start.pas"/>
+        <Caret Line="156" Column="35" TopLine="153"/>
+      </Position6>
+      <Position7>
+        <Filename Value="beallitasok.pas"/>
+        <Caret Line="27"/>
+      </Position7>
+      <Position8>
+        <Filename Value="beallitasok.pas"/>
+        <Caret Line="31"/>
+      </Position8>
+      <Position9>
+        <Filename Value="beallitasok.pas"/>
+        <Caret Line="16" Column="17"/>
+      </Position9>
+      <Position10>
+        <Filename Value="beallitasok.pas"/>
+        <Caret Line="25" Column="4"/>
+      </Position10>
+      <Position11>
+        <Filename Value="beallitasok.pas"/>
+        <Caret Line="27" Column="17"/>
+      </Position11>
+      <Position12>
+        <Filename Value="beallitasok.pas"/>
+        <Caret Line="26"/>
+      </Position12>
+      <Position13>
+        <Filename Value="beallitasok.pas"/>
+        <Caret Line="27"/>
+      </Position13>
+      <Position14>
+        <Filename Value="beallitasok.pas"/>
+        <Caret Line="28"/>
+      </Position14>
+      <Position15>
+        <Filename Value="beallitasok.pas"/>
+        <Caret Line="27"/>
+      </Position15>
+      <Position16>
+        <Filename Value="beallitasok.pas"/>
+        <Caret Line="28"/>
+      </Position16>
+      <Position17>
+        <Filename Value="beallitasok.pas"/>
+        <Caret Line="29"/>
+      </Position17>
+      <Position18>
+        <Filename Value="beallitasok.pas"/>
+        <Caret Line="30"/>
+      </Position18>
+      <Position19>
+        <Filename Value="beallitasok.pas"/>
+        <Caret Line="31"/>
+      </Position19>
+      <Position20>
+        <Filename Value="beallitasok.pas"/>
+        <Caret Line="23" Column="20"/>
+      </Position20>
+      <Position21>
+        <Filename Value="beallitasok.pas"/>
+        <Caret Line="27" Column="20"/>
+      </Position21>
+      <Position22>
+        <Filename Value="beallitasok.pas"/>
+        <Caret Line="47" Column="7" TopLine="6"/>
+      </Position22>
+      <Position23>
+        <Filename Value="alk_kat_start.pas"/>
+        <Caret Line="171" TopLine="142"/>
+      </Position23>
+      <Position24>
+        <Filename Value="beallitasok.pas"/>
+        <Caret Line="46" Column="25" TopLine="12"/>
+      </Position24>
+      <Position25>
+        <Filename Value="kereses_eredmenye.pas"/>
+        <Caret Line="73" Column="14" TopLine="70"/>
+      </Position25>
+      <Position26>
+        <Filename Value="beallitasok.pas"/>
+        <Caret Line="49" Column="16" TopLine="15"/>
+      </Position26>
+      <Position27>
+        <Filename Value="beallitasok.pas"/>
+        <Caret Line="71" Column="22" TopLine="38"/>
+      </Position27>
+      <Position28>
+        <Filename Value="beallitasok.pas"/>
+        <Caret Line="70" Column="9" TopLine="38"/>
+      </Position28>
+      <Position29>
+        <Filename Value="alk_kat_start.pas"/>
+        <Caret Line="280" TopLine="239"/>
+      </Position29>
+      <Position30>
+        <Filename Value="kereses_eredmenye.pas"/>
+        <Caret Line="501" TopLine="501"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+    </SearchPaths>
+    <CodeGeneration>
+      <SmartLinkUnit Value="True"/>
+      <SmallerCode Value="True"/>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <StripSymbols Value="True"/>
+        <UseExternalDbgSyms Value="True"/>
+      </Debugging>
+      <LinkSmart Value="True"/>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <Verbosity>
+        <ShowWarn Value="False"/>
+        <ShowNotes Value="False"/>
+        <ShowHints Value="False"/>
+      </Verbosity>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="4">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+      <Item4>
+        <Name Value="EDatabaseError"/>
+      </Item4>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

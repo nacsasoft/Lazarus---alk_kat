@@ -1,0 +1,111 @@
+object frmBeallitasok: TfrmBeallitasok
+  Left = 576
+  Height = 241
+  Top = 404
+  Width = 528
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsDialog
+  Caption = 'Siplace alkatrészkatalógus - Nacsasoft 2011'
+  ClientHeight = 241
+  ClientWidth = 528
+  OnClose = FormClose
+  OnShow = FormShow
+  LCLVersion = '1.6.0.4'
+  object GroupBox1: TGroupBox
+    Left = 12
+    Height = 200
+    Top = 18
+    Width = 500
+    Caption = 'Alkatrészek szerkesztése'
+    ClientHeight = 180
+    ClientWidth = 496
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 25
+      Height = 15
+      Top = 19
+      Width = 27
+      Caption = 'Gép :'
+      ParentColor = False
+    end
+    object Label2: TLabel
+      Left = 25
+      Height = 15
+      Top = 47
+      Width = 56
+      Caption = 'Kategória :'
+      ParentColor = False
+    end
+    object Label3: TLabel
+      Left = 25
+      Height = 15
+      Top = 80
+      Width = 80
+      Caption = 'Kép azonosító :'
+      ParentColor = False
+    end
+    object Label4: TLabel
+      Left = 25
+      Height = 15
+      Top = 112
+      Width = 86
+      Caption = 'Rendelési szám :'
+      ParentColor = False
+    end
+    object Label5: TLabel
+      Left = 25
+      Height = 15
+      Top = 144
+      Width = 71
+      Caption = 'Megnevezés :'
+      ParentColor = False
+    end
+    object edtRendelesiSzam: TEdit
+      Left = 121
+      Height = 23
+      Top = 104
+      Width = 120
+      TabOrder = 3
+    end
+    object edtMegnevezes: TEdit
+      Left = 121
+      Height = 23
+      Top = 136
+      Width = 280
+      TabOrder = 4
+    end
+    object cmbGep: TComboBox
+      Left = 121
+      Height = 23
+      Top = 11
+      Width = 98
+      ItemHeight = 15
+      OnChange = cmbGepChange
+      TabOrder = 0
+    end
+    object cmbKategoria: TComboBox
+      Left = 121
+      Height = 23
+      Top = 39
+      Width = 215
+      ItemHeight = 15
+      TabOrder = 1
+    end
+    object edtKepAzonosito: TEdit
+      Left = 121
+      Height = 23
+      Top = 72
+      Width = 120
+      TabOrder = 2
+    end
+    object btnUjAlkatreszFelvitele: TButton
+      Left = 360
+      Height = 25
+      Top = 0
+      Width = 131
+      Caption = 'Alkatrész felvitele'
+      OnClick = btnUjAlkatreszFelviteleClick
+      TabOrder = 5
+    end
+  end
+end

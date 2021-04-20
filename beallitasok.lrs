@@ -1,0 +1,32 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TfrmBeallitasok','FORMDATA',[
+  'TPF0'#15'TfrmBeallitasok'#14'frmBeallitasok'#4'Left'#3'@'#2#6'Height'#3#241#0
+  +#3'Top'#3#148#1#5'Width'#3#16#2#11'BorderIcons'#11#12'biSystemMenu'#10'biMin'
+  +'imize'#0#11'BorderStyle'#7#8'bsDialog'#7'Caption'#6'-Siplace alkatr'#195#169
+  +'szkatal'#195#179'gus - Nacsasoft 2011'#12'ClientHeight'#3#241#0#11'ClientWi'
+  +'dth'#3#16#2#7'OnClose'#7#9'FormClose'#6'OnShow'#7#8'FormShow'#10'LCLVersion'
+  +#6#7'1.6.0.4'#0#9'TGroupBox'#9'GroupBox1'#4'Left'#2#12#6'Height'#3#200#0#3'T'
+  +'op'#2#18#5'Width'#3#244#1#7'Caption'#6#26'Alkatr'#195#169'szek szerkeszt'
+  +#195#169'se'#12'ClientHeight'#3#180#0#11'ClientWidth'#3#240#1#8'TabOrder'#2#0
+  +#0#6'TLabel'#6'Label1'#4'Left'#2#25#6'Height'#2#15#3'Top'#2#19#5'Width'#2#27
+  +#7'Caption'#6#6'G'#195#169'p :'#11'ParentColor'#8#0#0#6'TLabel'#6'Label2'#4
+  +'Left'#2#25#6'Height'#2#15#3'Top'#2'/'#5'Width'#2'8'#7'Caption'#6#12'Kateg'
+  +#195#179'ria :'#11'ParentColor'#8#0#0#6'TLabel'#6'Label3'#4'Left'#2#25#6'Hei'
+  +'ght'#2#15#3'Top'#2'P'#5'Width'#2'P'#7'Caption'#6#18'K'#195#169'p azonos'#195
+  +#173't'#195#179' :'#11'ParentColor'#8#0#0#6'TLabel'#6'Label4'#4'Left'#2#25#6
+  +'Height'#2#15#3'Top'#2'p'#5'Width'#2'V'#7'Caption'#6#18'Rendel'#195#169'si s'
+  +'z'#195#161'm :'#11'ParentColor'#8#0#0#6'TLabel'#6'Label5'#4'Left'#2#25#6'He'
+  +'ight'#2#15#3'Top'#3#144#0#5'Width'#2'G'#7'Caption'#6#13'Megnevez'#195#169's'
+  +' :'#11'ParentColor'#8#0#0#5'TEdit'#16'edtRendelesiSzam'#4'Left'#2'y'#6'Heig'
+  +'ht'#2#23#3'Top'#2'h'#5'Width'#2'x'#8'TabOrder'#2#3#0#0#5'TEdit'#13'edtMegne'
+  +'vezes'#4'Left'#2'y'#6'Height'#2#23#3'Top'#3#136#0#5'Width'#3#24#1#8'TabOrde'
+  +'r'#2#4#0#0#9'TComboBox'#6'cmbGep'#4'Left'#2'y'#6'Height'#2#23#3'Top'#2#11#5
+  +'Width'#2'b'#10'ItemHeight'#2#15#8'OnChange'#7#12'cmbGepChange'#8'TabOrder'#2
+  +#0#0#0#9'TComboBox'#12'cmbKategoria'#4'Left'#2'y'#6'Height'#2#23#3'Top'#2''''
+  +#5'Width'#3#215#0#10'ItemHeight'#2#15#8'TabOrder'#2#1#0#0#5'TEdit'#15'edtKep'
+  +'Azonosito'#4'Left'#2'y'#6'Height'#2#23#3'Top'#2'H'#5'Width'#2'x'#8'TabOrder'
+  +#2#2#0#0#7'TButton'#23'btnUjAlkatreszFelvitele'#4'Left'#3'h'#1#6'Height'#2#25
+  +#3'Top'#2#0#5'Width'#3#131#0#7'Caption'#6#20'Alkatr'#195#169'sz felvitele'#7
+  +'OnClick'#7#28'btnUjAlkatreszFelviteleClick'#8'TabOrder'#2#5#0#0#0#0
+]);

@@ -1,0 +1,258 @@
+object frmMain: TfrmMain
+  Left = 563
+  Height = 509
+  Top = 156
+  Width = 519
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Siplace alkatrészkatalógus - Nacsasoft 2011'
+  ClientHeight = 509
+  ClientWidth = 519
+  Color = clBtnShadow
+  OnClose = FormClose
+  OnCreate = FormCreate
+  Position = poDesktopCenter
+  LCLVersion = '0.9.31'
+  object GroupBox1: TGroupBox
+    Left = 32
+    Height = 304
+    Top = 16
+    Width = 456
+    Caption = 'Siplace beültetőgépek és gépegységek'
+    ClientHeight = 286
+    ClientWidth = 452
+    Color = clSilver
+    Font.Color = clWindowFrame
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 0
+    object rdbF4: TRadioButton
+      Left = 22
+      Height = 17
+      Top = 17
+      Width = 79
+      Caption = ' Siplace F4'
+      Checked = True
+      OnChange = rdbF4Change
+      TabOrder = 0
+      TabStop = True
+    end
+    object rdbF5: TRadioButton
+      Left = 22
+      Height = 17
+      Top = 45
+      Width = 79
+      Caption = ' Siplace F5'
+      OnChange = rdbF5Change
+      TabOrder = 4
+    end
+    object rdbF5HM: TRadioButton
+      Left = 22
+      Height = 17
+      Top = 72
+      Width = 97
+      Caption = ' Siplace F5HM'
+      OnChange = rdbF5HMChange
+      TabOrder = 7
+    end
+    object rdbS23: TRadioButton
+      Left = 126
+      Height = 17
+      Top = 17
+      Width = 87
+      Caption = ' Siplace S23'
+      OnChange = rdbS23Change
+      TabOrder = 1
+    end
+    object rdbS27: TRadioButton
+      Left = 126
+      Height = 17
+      Top = 45
+      Width = 87
+      Caption = ' Siplace S27'
+      OnChange = rdbS27Change
+      TabOrder = 5
+    end
+    object rdbHS50: TRadioButton
+      Left = 126
+      Height = 17
+      Top = 72
+      Width = 95
+      Caption = ' Siplace HS50'
+      OnChange = rdbHS50Change
+      TabOrder = 2
+    end
+    object rdbHS60: TRadioButton
+      Left = 126
+      Height = 17
+      Top = 104
+      Width = 95
+      Caption = ' Siplace HS60'
+      OnChange = rdbHS60Change
+      TabOrder = 6
+    end
+    object rdbX4: TRadioButton
+      Left = 246
+      Height = 17
+      Top = 45
+      Width = 80
+      Caption = ' Siplace X4'
+      OnChange = rdbX4Change
+      TabOrder = 3
+    end
+    object rdbWPW: TRadioButton
+      Left = 22
+      Height = 17
+      Top = 104
+      Width = 75
+      Caption = ' WPW 80F'
+      OnChange = rdbWPWChange
+      TabOrder = 8
+    end
+    object btnMachines: TButton
+      Left = 358
+      Height = 28
+      Top = 112
+      Width = 87
+      Caption = 'Megjelenítés'
+      OnClick = btnMachinesClick
+      TabOrder = 9
+    end
+    object Shape1: TShape
+      Left = 22
+      Height = 1
+      Top = 152
+      Width = 411
+    end
+    object btnKereses: TButton
+      Left = 358
+      Height = 28
+      Top = 249
+      Width = 87
+      Caption = 'Keresés'
+      OnClick = btnKeresesClick
+      TabOrder = 12
+    end
+    object cmbKeresesTipusa: TComboBox
+      Left = 29
+      Height = 21
+      Top = 192
+      Width = 138
+      ItemHeight = 13
+      ItemIndex = 0
+      Items.Strings = (
+        'Megnevezés'
+        'Rendelési szám'
+      )
+      OnChange = cmbKeresesTipusaChange
+      Style = csDropDownList
+      TabOrder = 10
+      Text = 'Megnevezés'
+    end
+    object Label1: TLabel
+      Left = 30
+      Height = 14
+      Top = 168
+      Width = 93
+      Caption = 'Keresés típusa...'
+      ParentColor = False
+    end
+    object edtKeresettAlkatresz: TEdit
+      Left = 230
+      Height = 21
+      Top = 192
+      Width = 189
+      AutoSize = False
+      OnKeyPress = edtKeresettAlkatreszKeyPress
+      TabOrder = 11
+    end
+    object Label2: TLabel
+      Left = 230
+      Height = 14
+      Top = 168
+      Width = 118
+      Caption = 'Keresett alkatrész ...'
+      ParentColor = False
+    end
+    object rdbD1: TRadioButton
+      Left = 246
+      Height = 17
+      Top = 16
+      Width = 81
+      Caption = ' Siplace D1'
+      OnChange = rdbD1Change
+      TabOrder = 13
+    end
+    object rdbSX4: TRadioButton
+      Left = 246
+      Height = 17
+      Top = 72
+      Width = 87
+      Caption = ' Siplace SX4'
+      OnChange = rdbSX4Change
+      TabOrder = 14
+    end
+    object rdbX4i: TRadioButton
+      Left = 246
+      Height = 17
+      Top = 104
+      Width = 83
+      Caption = ' Siplace X4i'
+      OnChange = rdbX4iChange
+      TabOrder = 15
+    end
+  end
+  object GroupBox2: TGroupBox
+    Left = 32
+    Height = 131
+    Top = 344
+    Width = 456
+    Caption = 'Siplace Siemens adagolók és utánfűzőeszközök'
+    ClientHeight = 113
+    ClientWidth = 452
+    Color = clSilver
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 1
+    object rdbFeederS: TRadioButton
+      Left = 22
+      Height = 17
+      Top = 17
+      Width = 125
+      Caption = ' S-típusú adagolók'
+      Checked = True
+      OnChange = rdbFeederSChange
+      TabOrder = 0
+      TabStop = True
+    end
+    object rdbFeederX: TRadioButton
+      Left = 22
+      Height = 17
+      Top = 45
+      Width = 125
+      Caption = ' X-típusú adagolók'
+      OnChange = rdbFeederXChange
+      TabOrder = 1
+    end
+    object rdbSplicing: TRadioButton
+      Left = 158
+      Height = 17
+      Top = 17
+      Width = 130
+      Caption = ' Utánfűző eszközök'
+      OnChange = rdbSplicingChange
+      TabOrder = 2
+    end
+    object btnFeedersSplicing: TButton
+      Left = 358
+      Height = 28
+      Top = 75
+      Width = 87
+      Caption = 'Megjelenítés'
+      OnClick = btnFeedersSplicingClick
+      TabOrder = 3
+    end
+  end
+end
