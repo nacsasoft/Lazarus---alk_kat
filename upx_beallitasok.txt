@@ -1,1 +1,3 @@
+//bumm teszt...
+
 upx --best --overlay=strip -o Siplace-OPC.exe alk_kat.exe
